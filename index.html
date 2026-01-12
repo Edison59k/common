@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connection Service Information & Privacy Notice</title>
+    
+    <link rel="stylesheet" href="index.css"></link> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="hero-section">
+            <div class="hero-content">
+                <h1>Connection Service Information</h1>
+                <p class="subtitle">& Privacy Notice</p>
+                <p style="margin-top: 10px; font-size: 1.05rem; max-width: 500px;">
+                    Trusted by couples worldwide for secure and confidential connection services.
+                </p>
+            </div>
+            
+            <div class="hero-image">
+                <div class="couple-image">
+                    <!-- Using a placeholder image of a happy interracial couple -->
+                    <!-- In a real implementation, you would replace this with your actual image -->
+                    <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Happy couple using connection service">
+                    
+                    <!-- Phone screen showing the website -->
+                    <div class="phone-screen">
+                        <div class=7e"phone-screen-content">
+                            <div class="phone-logo">ConnectSafe</div>
+                            <div class="phone-text">Secure Connection Service</div>
+                            <div style="font-size: 0.6rem; margin-bottom: 10px;">Your privacy protected</div>
+                            <div class="phone-button">Start Connection</div>
+                            <div style="font-size: 0.5rem; margin-top: 15px; opacity: 0.7;">Trusted Worldwide</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content-area">
+            <div class="content">
+                <div class="section">
+                    <h2 class="section-title"><i class="fas fa-handshake"></i> Our Services</h2>
+                    <p>We provide reliable and well-established connection services, both locally and internationally. Our process is handled professionally, securely, and with strict confidentiality.</p>
+                </div>
+                
+                <div class="section">
+                    <h2 class="section-title"><i class="fas fa-shield-alt"></i> Privacy Commitment</h2>
+                    <p>All information shared through this form is used solely for the connection process. We respect your privacy and guarantee that your details will not be posted, sold, or shared on Facebook or any other social media platforms.</p>
+                </div>
+                
+                <div class="highlight">
+                    <p>By proceeding with this form, you acknowledge that the information you provide is accurate and submitted willingly.</p>
+                    <p>Our team will guide you through the next steps in a clear and transparent manner.</p>
+                </div>
+                
+                <div class="consent-section">
+                    <h2 class="section-title"><i class="fas fa-user-check"></i> Consent Agreement</h2>
+                    <div class="consent-checkbox">
+                        <input type="checkbox" id="consentCheckbox">
+                        <div>
+                            <label for="consentCheckbox" class="consent-label">I confirm that the information I provide is accurate, and I agree to submit it for the connection process under the stated privacy terms.</label>
+                            <p class="consent-text">You must check this box to proceed with our connection services.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-link-container">
+                    <h3 class="form-link-title"><i class="fas fa-link"></i> Connection Service Form</h3>
+                    <p class="form-link-desc">Click the button below to access our secure connection form and submit your details.</p>
+                    
+                    <a href="https://forms.gle/RHTZBuJmQLE6yqgGA" id="formLink" class="form-link" target="_blank" rel="noopener noreferrer">
+                        Go to Connection Form <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    
+                    <p class="form-instructions">
+                        <i class="fas fa-info-circle"></i> The form will open in a new tab. Please complete all required fields.
+                    </p>
+                </div>
+                
+                <div class="buttons">
+                    <button id="agreeBtn" class="btn-agree" disabled>
+                        <i class="fas fa-check-circle"></i> I Agree & Want to Proceed
+                    </button>
+                    <button id="disagreeBtn" class="btn-disagree">
+                        <i class="fas fa-times-circle"></i> Cancel
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Confirmation Modal -->
+    <div id="confirmationModal" class="confirmation-modal">
+        <div class="modal-content">
+            <h3 class="modal-title">Ready to Proceed?</h3>
+            <p class="modal-text">You are about to be redirected to our secure connection form. Please ensure you have read and understood our privacy policy before submitting your information.</p>
+            <div class="modal-buttons">
+                <button id="confirmRedirect" class="modal-btn btn-confirm">
+                    <i class="fas fa-external-link-alt"></i> Open Form
+                </button>
+                <button id="cancelRedirect" class="modal-btn btn-cancel">
+                    <i class="fas fa-times"></i> Cancel
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2023 Connection Services. All rights reserved.</p>
+        <p>For questions about our privacy policy, contact: Saidfarakhani@gmail.com</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
